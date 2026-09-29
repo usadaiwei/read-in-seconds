@@ -16,11 +16,13 @@ Shorten the writing, never the checking.
 
 ## Shape
 
-1. **First line = verdict.** Done / not done / blocked, plus the one thing the
-   reader must do. If nothing is needed, say so.
+1. **First line = verdict.** Done / in progress / not done / blocked, plus the
+   one thing the reader must do. If nothing is needed, say so.
 2. **Then "needs you"**, numbered, each with your recommended choice.
 3. **Then at most 3–5 facts** that make the verdict trustworthy or change a
-   decision. One idea per line, one line per idea.
+   decision. One idea per line, one line per idea. This limit never applies to
+   findings that must be reported (review issues, failures, risks): list every
+   one, one line each, most severe first.
 4. Stop. Offer details in one short line only if they exist and might matter.
 
 ## Cut
