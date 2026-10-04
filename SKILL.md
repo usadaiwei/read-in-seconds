@@ -13,12 +13,16 @@ description: >-
 
 Goal: the reader knows the result and what to do next within ten seconds.
 Shorten the writing, never the checking.
+An explicit request for complete output keeps its required content. A request
+for complete checking alone does not ask for a long answer.
 
 ## Shape
 
-1. **First line = verdict.** Done / in progress / not done / blocked, plus the
-   one thing the reader must do. If nothing is needed, say so.
-2. **Then "needs you"**, numbered, each with your recommended choice.
+1. **First line = outcome.** State the result or recommendation and any action
+   the reader needs to take.
+2. **Only when needed: reader decisions**, numbered, with your recommendation.
+   Ask only for missing information or authorization that changes the task;
+   do not repeat an approval already given.
 3. **Then at most 3–5 facts** that make the verdict trustworthy or change a
    decision. One idea per line, one line per idea. This limit never applies to
    findings that must be reported (review issues, failures, risks): list every
@@ -43,6 +47,10 @@ Shorten the writing, never the checking.
 
 - Lines under ~25 字 / 15 words when possible; bold only the key word.
 - Routine update: ≤ 5 lines. Complex result: ≤ 15 lines before "details".
+- One name per concept: call the same metric, file, or state by the same word
+  throughout; a new word reads as a new thing.
+- Steps the reader runs: one action per step, imperative, condition before the
+  action ("若 hook 拦截，运行 …").
 - Same language as the user; keep code, paths, and identifiers verbatim.
 - Emails: subject carries the verdict; body follows the same shape.
 
