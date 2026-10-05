@@ -18,8 +18,9 @@ for complete checking alone does not ask for a long answer.
 
 ## Shape
 
-1. **First line = outcome.** State the result or recommendation and any action
-   the reader needs to take.
+1. **First line = verdict.** For work updates: Done / in progress / not done /
+   blocked. For reviews or advice, state the result or recommendation. Include
+   the reader's next action only when needed.
 2. **Only when needed: reader decisions**, numbered, with your recommendation.
    Ask only for missing information or authorization that changes the task;
    do not repeat an approval already given.
